@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:background="#cd4ed765" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="#353535" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </FrameLayout>
+
+        <!-- 底部菜单页面 -->
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="11"
+            android:background="#ebebeb"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/main1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/main1_selector"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:text="首页"
+                android:textColor="#727272"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/main2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:button="@null"
+                android:drawableTop="@drawable/main1_selector"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:text="通讯录"
+                android:textColor="#727272"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/main3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:button="@null"
+                android:drawableTop="@drawable/main1_selector"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:text="历史"
+                android:textColor="#727272"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/main4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:button="@null"
+                android:drawableTop="@drawable/main1_selector"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:text="我的"
+                android:textColor="#727272"
+                android:textSize="10dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

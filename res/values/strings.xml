@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">lpsq</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SendFlag">"请求位置"</string>
+    <string name="ReceiveFlag">"坐标信息"</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+</resources>
