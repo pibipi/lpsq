@@ -8,8 +8,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="15"
+        android:layout_height="44dp"
         android:background="#cd4ed765" >
 
         <TextView
@@ -39,8 +38,8 @@
         <RadioGroup
             android:id="@+id/radioGroup"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="11"
+            android:layout_height="45dp"
+
             android:background="#ebebeb"
             android:orientation="horizontal" >
 
@@ -53,7 +52,7 @@
                 android:checked="true"
                 android:drawableTop="@drawable/main1_selector"
                 android:gravity="center"
-                android:paddingTop="1dp"
+                android:paddingTop="2dp"
                 android:text="首页"
                 android:textColor="#727272"
                 android:textSize="10dp" />
@@ -66,7 +65,7 @@
                 android:button="@null"
                 android:drawableTop="@drawable/main1_selector"
                 android:gravity="center"
-                android:paddingTop="1dp"
+                android:paddingTop="2dp"
                 android:text="通讯录"
                 android:textColor="#727272"
                 android:textSize="10dp" />
@@ -79,7 +78,7 @@
                 android:button="@null"
                 android:drawableTop="@drawable/main1_selector"
                 android:gravity="center"
-                android:paddingTop="1dp"
+                android:paddingTop="2dp"
                 android:text="历史"
                 android:textColor="#727272"
                 android:textSize="10dp" />
@@ -92,7 +91,7 @@
                 android:button="@null"
                 android:drawableTop="@drawable/main1_selector"
                 android:gravity="center"
-                android:paddingTop="1dp"
+                android:paddingTop="2dp"
                 android:text="我的"
                 android:textColor="#727272"
                 android:textSize="10dp" />

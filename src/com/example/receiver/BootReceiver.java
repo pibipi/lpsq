@@ -3,6 +3,7 @@ package com.example.receiver;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import com.example.service.PhoneService;
 import com.example.service.SendNotMsgService;
@@ -14,7 +15,8 @@ public class BootReceiver extends BroadcastReceiver {
 	public void onReceive(Context context, Intent intent) {
 		if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
 			// TODO
-			// 在这里写重新启动service的相关操作
+			// 在这里写重新启动service的相关操作 
+			System.out.println("1111111111111111111111111111111111111111111");
 			System.out.println("ACTION_BOOT_COMPLETED");
 			if (!MyUtils.isServiceWork(context,
 					"com.example.service.PhoneService")) {
